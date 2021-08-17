@@ -137,3 +137,33 @@
       font-weight: bold;
       margin-top: 10px;
   }
+
+  /****compatible****/
+  .contenido-info{
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 30px;
+    text-align: center;
+  }
+
+  .contenido-info img{
+      width: 100px;
+  }
+  .contenido-info h2{
+      color: rgba(0, 0, 0, 0.616);
+      margin-top: 15px;
+      font-size: 20px;
+  }
+  .contenido-info p{
+      line-height: 1.5;
+      margin-top: 10px;
+      font-size: 16px;
+  }
+
+  .contenido-info .boton{
+      width: 60%;
+      text-decoration: none;
+      border-radius: 10px;
+      margin: 15px auto 0 auto;
+      padding: 10px 5px;
+  }
