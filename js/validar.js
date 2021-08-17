@@ -6,8 +6,8 @@ botonSubmit.addEventListener('click', function(evento) {
 	evento.preventDefault();
 	
 	// Inputs
-	const inputCorreo = document.querySelector('#correo');
-	const inputClave = document.querySelector('#clave');
+	const inputCorreo = document.querySelector('#email');
+	const inputClave = document.querySelector('#password');
 
 	// Añadir valor de los input en un objeto
 	const formInput = {
